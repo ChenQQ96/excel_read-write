@@ -5,7 +5,8 @@ import openpyxl
 import os
 import time
 
-##xlrd用于读取公式计算结果，xls格式文件；新版本不可读取xls格式文件
+##xlrd用于读取公式计算结果，xls格式文件；新版本不可读取xls格式文件;
+##pip install xlrd==1.2.0
 ##openpyxl用于读、写文件；无法读取由openpyxl保存的文件中，公式计算结果
 
 #***********************************************************#
